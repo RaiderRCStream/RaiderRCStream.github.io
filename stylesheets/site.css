@@ -71,3 +71,6 @@ a.button {
   color: white;
   border-bottom: 1px solid #84888e;
   padding: 10px 0px; }
+
+li {
+  padding: 8px 0 8px 0; }
