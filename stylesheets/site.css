@@ -1,0 +1,73 @@
+body {
+  background-color: #1b1b1b;
+  color: #FFFFFF;
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 18vh 1rem;
+  text-align: center; }
+
+#header {
+  padding: 20px 0; }
+
+.logo {
+  font-family: 'Press Start 2P', cursive; }
+
+a {
+  color: rgba(255, 255, 255, 0.7); }
+  a:focus, a:hover {
+    color: rgba(255, 255, 255, 0.6); }
+
+#twitch-button {
+  background-color: #6441A4;
+  border-color: #6441A4; }
+
+a.button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 10px 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "row";
+          flex-direction: "row";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  background-color: "white";
+  -webkit-appearance: 'button';
+  text-decoration: none; }
+
+.service-logo {
+  height: 30px;
+  margin: 0 15px 0 10px; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px; }
+
+.cell {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  width: 400px; }
+
+.cell-header {
+  color: white;
+  border-bottom: 1px solid #84888e;
+  padding: 10px 0px; }
